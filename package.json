@@ -1,0 +1,44 @@
+{
+  "name": "@mingeon/opencode-blueprint",
+  "version": "0.1.0",
+  "description": "OpenCode plugin for structured plan-driven development — granular JSON task data, plan/implement/verify agents, compaction-safe state",
+  "type": "module",
+  "main": ".opencode/plugins/plan-tracker.ts",
+  "bin": {
+    "@mingeon/opencode-blueprint": "bin/init.mjs"
+  },
+  "files": [
+    ".opencode/plugins",
+    ".opencode/agents",
+    ".opencode/commands",
+    "bin"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "plan",
+    "compaction",
+    "agent",
+    "coding-agent",
+    "plan-driven-development"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mingeon/opencode-blueprint"
+  },
+  "license": "MIT",
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "latest",
+    "@types/node": "^25.3.3",
+    "typescript": "^5.8.0"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": "*"
+  }
+}
