@@ -7,15 +7,14 @@ No markdown plans. No freeform documents. Every task, requirement, decision, and
 ## Installation
 
 ```bash
-npm install @mingeon/opencode-blueprint
 npx @mingeon/opencode-blueprint init
 ```
 
-This does two things:
-1. Copies agent (`.md`) and command (`.md`) files into your project's `.opencode/` directory
+That's it. This:
+1. Copies agent and command `.md` files into your project's `.opencode/` directory
 2. Registers the plugin in `opencode.json`
 
-The 26 `plan_*` tools are loaded automatically via the plugin — no files needed in `.opencode/tools/`.
+When you start OpenCode, it automatically installs the npm package and loads the 26 `plan_*` tools via the plugin. No manual `npm install` needed.
 
 ## Agents
 
