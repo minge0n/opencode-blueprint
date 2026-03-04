@@ -1,6 +1,6 @@
 {
   "name": "@mingeon/opencode-blueprint",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "OpenCode plugin for structured plan-driven development — granular JSON task data, plan/implement/verify agents, compaction-safe state",
   "type": "module",
   "main": ".opencode/plugins/plan-tracker.ts",
